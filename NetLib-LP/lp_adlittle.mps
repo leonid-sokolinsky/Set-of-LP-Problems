@@ -12,7 +12,7 @@ NAME          ADLITTLE
 *   Source:
 *   The NETLIB collection of test problems.
 
-*   SIF input: (already in MPS format)
+*   After convertation in standart form: m =     168     n = 97
 
 *   classification LLR2-AN-97-56
 
