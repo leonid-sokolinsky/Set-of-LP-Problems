@@ -2,8 +2,8 @@ NAME          nguyen5
 *   Malek A., Yari A. Primal-dual solution for the linear programming problems using neural networks // Appl. Math. Comput. Elsevier, 2005. Vol. 167, № 1. P. 198-211.
 *   https://doi.org/10.1016/J.AMC.2004.06.081
 *
-*   Maximum:  
-*   Minimum: 
+*   Maximum: 21.45497290910349
+*   Minimum: 0
 ROWS
  L  0
  L  1
