@@ -9,9 +9,8 @@ Map List is not Fragmented
 Optimization: the best vertex
 Pseudoprojection method: Max
 PP_EPS_ZERO                     1e-11
-PP_EPS_ON_HYPERPLANE            1e-07
 PP_EPS_PROJECTION               1e-10
-PP_EPS_COS                      1e-10
+PP_EPS_COS                      1e-11
 PP_EPS_RELATIVE_ERROR           0.001
 PP_OBJECTIVE_VECTOR_LENGTH      10000000
 --------------- Data ---------------
@@ -23,24 +22,30 @@ _________________________________________________ 1 ____________________________
 F(u_nex) = 5.4971269
 Number of hyperplanes including u_nex: 25
 Number of edges:        300
+PD_eps_on_hyperplane = 4e-11
 _________________________________________________ 2 _____________________________________________________
 F(u_nex) = 5.6940623
-Number of hyperplanes including u_nex: 27
-Number of edges:        17550
+Number of hyperplanes including u_nex: 25
+Number of edges:        300
+PD_eps_on_hyperplane = 4e-11
 _________________________________________________ 3 _____________________________________________________
 F(u_nex) = 66.249491
-Number of hyperplanes including u_nex: 28
-Number of edges:        98280
+Number of hyperplanes including u_nex: 26
+Number of edges:        2600
+PD_eps_on_hyperplane = 4e-11
 _________________________________________________ 4 _____________________________________________________
 F(u_nex) = 195.67512
-Number of hyperplanes including u_nex: 29
-Number of edges:        475020
-|PP_MAX_OBJ_VALUE-F(u_nex)|/|PP_MAX_OBJ_VALUE| = 6.5015503e-10 < PP_EPS_RELATIVE_ERROR = 0.001
+Number of hyperplanes including u_nex: 26
+Number of edges:        2600
+PD_eps_on_hyperplane = 8e-11
+|PP_MAX_OBJ_VALUE-F(u_nex)|/|PP_MAX_OBJ_VALUE| = 5.145533e-13 < PP_EPS_RELATIVE_ERROR = 0.001
 ================================================
-// Elapsed time: 152.47101
+// Elapsed time: 8.9259696
 // Number of iterations: 4
-// Computed objective value: 464.753143159304443088331
+// Computed objective value: 464.753142856903707524907
 // Maximal objective value:  464.753142857142847788054
-// Relative error = 6.5e-10
+// Relative error = 5.15e-13
 ================================================
-Distance to polytope: 4.7036617e-08
+Calculated solution point is saved into file *.so
+Distance to polytope: 2.5979458e-10
+PD_eps_on_hyperplane = 1.6e-10
