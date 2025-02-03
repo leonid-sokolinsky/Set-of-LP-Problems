@@ -40,12 +40,11 @@ Number of edges:        2600
 PD_eps_on_hyperplane = 8e-11
 |PP_MAX_OBJ_VALUE-F(u_nex)|/|PP_MAX_OBJ_VALUE| = 5.145533e-13 < PP_EPS_RELATIVE_ERROR = 0.001
 ================================================
-// Elapsed time: 8.9259696
+// Elapsed time: 8.4105464
 // Number of iterations: 4
 // Computed objective value: 464.753142856903707524907
 // Maximal objective value:  464.753142857142847788054
 // Relative error = 5.15e-13
 ================================================
-Calculated solution point is saved into file *.so
-Distance to polytope: 2.5979458e-10
+Distance to polytope: 1.6166395e-10
 PD_eps_on_hyperplane = 1.6e-10
