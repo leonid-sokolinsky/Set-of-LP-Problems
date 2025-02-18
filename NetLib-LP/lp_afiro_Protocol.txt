@@ -1,0 +1,45 @@
+Problem name: afiro
+Input format: MPS
+m = 59 n = 32 (after conversion into standard form)
+Number of equations: 8
+Subspace dimension: 24
+Number of Workers: 16
+OpenMP is turned off!
+Map List is not Fragmented
+Optimization: the best vertex
+Pseudoprojection method: Max
+PP_EPS_ZERO                     1e-11
+PP_EPS_ON_HYPERPLANE            1e-09
+PP_EPS_PROJECTION               1e-10
+PP_OBJECTIVE_VECTOR_LENGTH      1000000
+PP_EPS_RELATIVE_ERROR           0.001
+--------------- Data ---------------
+F(v) =        5.4213394
+u0 belongs to feasible polytope.
+// Number of inequality hyperplanes including u0: 25
+Number of edges:        300
+_________________________________________________ 1 _____________________________________________________
+F(u_nex) = 5.51664
+Number of hyperplanes including u_nex: 26
+Number of edges:        2600
+_________________________________________________ 2 _____________________________________________________
+F(u_nex) = 5.7455836
+Number of hyperplanes including u_nex: 29
+Number of edges:        475020
+_________________________________________________ 3 _____________________________________________________
+F(u_nex) = 65.907534
+Number of hyperplanes including u_nex: 28
+Number of edges:        98280
+_________________________________________________ 4 _____________________________________________________
+F(u_nex) = 194.54556
+Number of hyperplanes including u_nex: 29
+Number of edges:        475020
+|PP_MAX_OBJ_VALUE-F(u_nex)|/|PP_MAX_OBJ_VALUE| = 1.8370788e-13 < PP_EPS_RELATIVE_ERROR = 0.001
+================================================
+// Elapsed time: 873.16441
+// Number of iterations: 5
+// Computed objective value: 464.753142857228226603183
+// Maximal objective value:  464.753142857142847788054
+// Relative error = 1.84e-13
+================================================
+Distance to polytope: 4.1072275e-11
