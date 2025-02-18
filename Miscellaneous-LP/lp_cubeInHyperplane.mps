@@ -1,6 +1,6 @@
 NAME          cubeInHyperplane
-*   Maximum: 30000 
-*   Minimum: -2000
+*   Maximum: 90000 
+*   Minimum: -31272.7417820322843908798
 
 ROWS
  L  0
