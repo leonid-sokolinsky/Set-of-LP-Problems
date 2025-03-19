@@ -1,0 +1,213 @@
+Problem name: kb2
+Input format: MPS
+m = 93 n = 41 (after conversion into standard form)
+Number of equations: 16
+Subspace dimension: 25
+Number of Workers: 16
+OpenMP is turned off!
+Map List is not Fragmented
+Optimization: the best vertex
+Pseudoprojection method: Max
+PP_EPS_ZERO                     1e-09
+PP_EPS_PROJECTION               1e-08
+PP_EPS_ON_HYPERPLANE            1e-07
+PP_OBJECTIVE_VECTOR_LENGTH      1000000
+_________________________________________________________________________________________________________
+ObjF = 1701.4599        Number of edges: 25
+_________________________________________________ 1 _____________________________________________________
+Worker 3:        ObjF = 1749.8865       Number of edges: 25                     ---> Movement is possible
+Worker 10. Map progress: 100%   Elapsed time: 101
+Worker 4. Map progress: 100%    Elapsed time: 107
+Worker 13:       ObjF = 1733.4021       Number of edges: 25                     ---> Movement is possible
+Worker 13. Map progress: 100%   Elapsed time: 140
+Worker 12:       ObjF = 1732.379        Number of edges: 25                     ---> Movement is possible
+Worker 12. Map progress: 100%   Elapsed time: 140
+Worker 11. Map progress: 100%   Elapsed time: 167
+Worker 7. Map progress: 100%    Elapsed time: 275
+Worker 9. Map progress: 100%    Elapsed time: 306
+Worker 15:       max_length = 6.6267263e-06
+Worker 14:       max_length = 0.0040046865
+Worker 5:        max_length = 5.3949877
+Worker 1:        max_length = 4.4646566
+Worker 8. Map progress: 100%    Elapsed time: 332
+Worker 0:        max_length = 4.13064
+Worker 6:        max_length = 0.00031819525
+Worker 3:        max_length = 0.818657
+Worker 15. Map progress: 100%   Elapsed time: 435
+Worker 2:        max_length = 11.547839
+Worker 5:        max_length = 3.9286813
+Worker 14:       max_length = 2.7403443e-06
+Worker 1:        max_length = 3.3790486
+Worker 0:        max_length = 4.6014842
+Worker 3:        max_length = 0.77146612
+Worker 2:        max_length = 5.2598819
+Worker 14:       ObjF = 1726.4864       Number of edges: 25                     ---> Movement is possible
+Worker 14. Map progress: 100%   Elapsed time: 809
+Worker 6:        max_length = 4.8743883
+Worker 5:        max_length = 4.6009584
+Worker 1:        max_length = 3.4084608
+Worker 0:        max_length = 3.824039
+Worker 3:        max_length = 0.79674108
+Worker 2:        max_length = 3.1749022
+Worker 6:        max_length = 3.2373192
+Worker 5:        max_length = 4.1186662
+Worker 1:        max_length = 3.2214752
+Worker 0:        max_length = 4.8644741
+Worker 3:        max_length = 0.67056774
+Worker 2:        max_length = 2.2150639
+Worker 6:        max_length = 2.4557463
+Worker 5:        max_length = 3.4712385
+Worker 1:        max_length = 3.7307026
+Worker 0:        max_length = 3.947632
+Worker 3:        max_length = 0.58564791
+Worker 2:        max_length = 1.1508693
+Worker 6:        max_length = 1.7170867
+Worker 5:        max_length = 3.6327834
+Worker 1:        max_length = 3.0737859
+Worker 0:        max_length = 3.433161
+Worker 3:        max_length = 0.58511617
+Worker 2:        max_length = 0.64444004
+Worker 6:        max_length = 1.0350782
+Worker 5:        max_length = 3.1735991
+Worker 1:        max_length = 3.3305934
+Worker 0:        max_length = 3.3456147
+Worker 3:        max_length = 0.67350316
+Worker 2:        max_length = 0.41769
+Worker 6:        max_length = 0.63862934
+Worker 5:        max_length = 3.6197211
+Worker 1:        max_length = 3.3028422
+Worker 0:        max_length = 3.2233999
+Worker 3:        max_length = 0.5090304
+Worker 2:        max_length = 0.25422606
+Worker 6:        max_length = 0.49325059
+Worker 5:        max_length = 2.9737708
+Worker 1:        max_length = 2.7746978
+Worker 0:        max_length = 3.0371793
+Worker 3:        max_length = 0.43804411
+Worker 2:        max_length = 0.16227655
+Worker 6:        max_length = 0.33951819
+Worker 5:        max_length = 2.819864
+Worker 1:        max_length = 3.2661442
+Worker 0:        max_length = 3.015005
+Worker 3:        max_length = 0.44630472
+Worker 2:        max_length = 0.085216492
+Worker 6:        max_length = 0.18696481
+Worker 5:        max_length = 2.7105988
+Worker 1:        max_length = 2.8928637
+Worker 0:        max_length = 3.8648683
+Worker 3:        max_length = 0.56329395
+Worker 2:        max_length = 0.055865835
+Worker 6:        max_length = 0.14948238
+Worker 5:        max_length = 2.5980594
+Worker 1:        max_length = 3.2086258
+Worker 0:        max_length = 3.5506057
+Worker 3:        max_length = 0.38992681
+Worker 2:        max_length = 0.034946446
+Worker 6:        max_length = 0.10398914
+Worker 5:        max_length = 2.4947577
+Worker 0:        max_length = 2.7238984
+Worker 1:        max_length = 2.41396
+Worker 3:        max_length = 0.36279368
+Worker 2:        max_length = 0.02046003
+Worker 6:        max_length = 0.068071497
+Worker 5:        max_length = 2.3289985
+Worker 5: PC_bsf_MapF warning: Exceeded the maximum number of iterations PP_MAX_PSEUDOPROJECTING_ITER = 10000000000 when calculating pseudoprojection!
+Worker 5: PC_bsf_MapF warning: u_nex does not belong to polytope with precision of PP_EPS_ON_HYPERPLANE = 1e-07
+Minimum PP_EPS_ON_HYPERPLANE should be 0.0008192
+Worker 5:        ObjF = 1705.9675       Number of edges: 1                      ---> Movement is possible
+Worker 1:        max_length = 2.3538413
+Worker 0:        max_length = 2.6257375
+Worker 1: PC_bsf_MapF warning: Exceeded the maximum number of iterations PP_MAX_PSEUDOPROJECTING_ITER = 10000000000 when calculating pseudoprojection!
+Worker 0: PC_bsf_MapF warning: Exceeded the maximum number of iterations PP_MAX_PSEUDOPROJECTING_ITER = 10000000000 when calculating pseudoprojection!
+Map progress: 64%       Time = 3667
+Worker 3:        max_length = 0.35395164
+Worker 3: PC_bsf_MapF warning: Exceeded the maximum number of iterations PP_MAX_PSEUDOPROJECTING_ITER = 10000000000 when calculating pseudoprojection!
+Worker 3: PC_bsf_MapF warning: u_nex does not belong to polytope with precision of PP_EPS_ON_HYPERPLANE = 1e-07
+Minimum PP_EPS_ON_HYPERPLANE should be 2.56e-05
+Worker 3. Map progress: 100%    Elapsed time: 3705
+Worker 2:        max_length = 0.012230002
+Worker 2: PC_bsf_MapF warning: Exceeded the maximum number of iterations PP_MAX_PSEUDOPROJECTING_ITER = 10000000000 when calculating pseudoprojection!
+Worker 2: PC_bsf_MapF warning: u_nex does not belong to polytope with precision of PP_EPS_ON_HYPERPLANE = 1e-07
+Minimum PP_EPS_ON_HYPERPLANE should be 1.28e-05
+Worker 2:        ObjF = 1723.0366       Number of edges: 1                      ---> Movement is possible
+Worker 2. Map progress: 100%    Elapsed time: 3740
+Worker 6:        max_length = 0.043835538
+Worker 5:        max_length = 2.3741217e-07
+Worker 1:        max_length = 1.8001662
+Worker 0:        max_length = 5.0017648
+Worker 5:        ObjF = 1723.1374       Number of edges: 25                     ---> Movement is possible
+Worker 5. Map progress: 100%    Elapsed time: 3882
+Worker 6:        max_length = 0.024147948
+Worker 6: PC_bsf_MapF warning: Exceeded the maximum number of iterations PP_MAX_PSEUDOPROJECTING_ITER = 10000000000 when calculating pseudoprojection!
+Worker 6: PC_bsf_MapF warning: u_nex does not belong to polytope with precision of PP_EPS_ON_HYPERPLANE = 1e-07
+Minimum PP_EPS_ON_HYPERPLANE should be 1.28e-05
+Worker 6:        ObjF = 1711.2639       Number of edges: 1                      ---> Movement is possible
+Worker 6. Map progress: 100%    Elapsed time: 4022
+Worker 1:        max_length = 0.087820726
+Worker 0:        max_length = 3.376377
+Worker 1:        max_length = 0.0061594314
+Worker 0:        max_length = 2.0599582
+Worker 1:        max_length = 0.0002904887
+Worker 0:        max_length = 1.52901
+Worker 1:        max_length = 1.9171367e-05
+Worker 0:        max_length = 0.90927145
+Worker 1:        max_length = 1.0429205e-06
+Worker 0:        max_length = 0.83267299
+Worker 1:        max_length = 4.8062554e-08
+Worker 0:        max_length = 0.3812589
+Worker 1. Map progress: 100%    Elapsed time: 4965
+Worker 0:        max_length = 0.31009842
+Worker 0:        max_length = 0.20600408
+Worker 0:        max_length = 0.13926758
+Worker 0:        max_length = 0.093371048
+Worker 0:        max_length = 0.062505617
+Worker 0:        max_length = 0.042026785
+Worker 0:        max_length = 0.029601379
+Worker 0: PC_bsf_MapF warning: Exceeded the maximum number of iterations PP_MAX_PSEUDOPROJECTING_ITER = 10000000000 when calculating pseudoprojection!
+Worker 0: PC_bsf_MapF warning: u_nex does not belong to polytope with precision of PP_EPS_ON_HYPERPLANE = 1e-07
+Minimum PP_EPS_ON_HYPERPLANE should be 1.28e-05
+Worker 0:        ObjF = 1709.2009       Number of edges: 1                      ---> Movement is possible
+Worker 0. Map progress: 100%    Elapsed time: 6087
+Current approximation is saved into file *_v(*).mtx
+ObjF = 1749.8865        Number of edges: 25
+_________________________________________________ 2 _____________________________________________________
+Worker 9. Map progress: 100%    Elapsed time: 53
+Worker 8. Map progress: 100%    Elapsed time: 88
+Worker 7. Map progress: 100%    Elapsed time: 94
+Worker 6. Map progress: 100%    Elapsed time: 253
+Worker 11:       max_length = 1.9626889e-06
+Worker 1:        max_length = 9.1054939e-07
+Worker 4:        max_length = 9.4329105e-08
+Worker 0:        max_length = 9.7012192e-07
+Worker 15:       max_length = 2.6651469e-07
+Worker 14:       max_length = 1.5282659e-06
+Worker 13:       max_length = 9.8390366e-07
+Worker 12:       max_length = 1.295643e-06
+Worker 5:        max_length = 2.57432e-07
+Worker 10:       max_length = 4.927828e-07
+Worker 3. Map progress: 100%    Elapsed time: 382
+Worker 15. Map progress: 100%   Elapsed time: 391
+Worker 4. Map progress: 100%    Elapsed time: 407
+Map progress: 64%       Time = 416
+Worker 13. Map progress: 100%   Elapsed time: 417
+Worker 10:       ObjF = 1749.9001       Number of edges: 25                     ---> Movement is possible
+Worker 10. Map progress: 100%   Elapsed time: 421
+Worker 11. Map progress: 100%   Elapsed time: 423
+Worker 12. Map progress: 100%   Elapsed time: 423
+Worker 14. Map progress: 100%   Elapsed time: 424
+Worker 5. Map progress: 100%    Elapsed time: 428
+Worker 2:        max_length = 9.5596841e-07
+Worker 2. Map progress: 100%    Elapsed time: 595
+Worker 1:        max_length = 1.5261634e-06
+Worker 0:        max_length = 6.7961628e-07
+Worker 0. Map progress: 100%    Elapsed time: 633
+Worker 1. Map progress: 100%    Elapsed time: 643
+ObjF = 1749.9001        Number of edges: 25
+|PP_MAX_OBJ_VALUE-F(u_nex)|/|PP_MAX_OBJ_VALUE| = 2.5304106e-11 < PP_EPS_RELATIVE_ERROR = 1e-08
+================================================
+// Elapsed time: 6730.3479
+// Number of iterations: 2
+// Computed objective value: 1749.90012995048527955078
+// Maximal objective value:  1749.90012990620562050026
+// Relative error = 2.53e-11
+================================================
