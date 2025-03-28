@@ -4,42 +4,258 @@ m = 59 n = 32 (after conversion into standard form)
 Number of equations: 8
 Subspace dimension: 24
 Number of Workers: 16
-OpenMP is turned off!
-Map List is not Fragmented
-Optimization: the best vertex
+Optimization: Maximum
+Strategy: The best gradient
+Prefer vertex with lowest degree: No
 Pseudoprojection method: Max
 PP_EPS_ZERO                     1e-11
-PP_EPS_ON_HYPERPLANE            1e-09
 PP_EPS_PROJECTION               1e-10
+PP_EPS_ON_HYPERPLANE            1e-09
 PP_OBJECTIVE_VECTOR_LENGTH      1000000
-PP_EPS_RELATIVE_ERROR           0.001
---------------- Data ---------------
-F(v) =        5.4213394
-u0 belongs to feasible polytope.
-// Number of inequality hyperplanes including u0: 25
-Number of edges:        300
+_________________________________________________________________________________________________________
+ObjF = 14.632009        Number of edge combinations: 98280
 _________________________________________________ 1 _____________________________________________________
-F(u_nex) = 5.51664
-Number of hyperplanes including u_nex: 26
-Number of edges:        2600
+Worker 1:       F(u_grd) = 16.089606    ObjF = 343.6326 Number of edges: 17550                  ---> Movement is possible
+Worker 14:      F(u_grd) = 16.089606    ObjF = 343.6326 Number of edges: 17550                  ---> Movement is possible
+Worker 8:       F(u_grd) = 15.518602    ObjF = 32.3132  Number of edges: 98280                  ---> Movement is possible
+Worker 10:      F(u_grd) = 16.089606    ObjF = 343.6326 Number of edges: 17550                  ---> Movement is possible
+Worker 2:       F(u_grd) = 15.518602    ObjF = 32.3132  Number of edges: 98280                  ---> Movement is possible
+Worker 6:       F(u_grd) = 15.518602    ObjF = 32.3132  Number of edges: 98280                  ---> Movement is possible
+Worker 12:      F(u_grd) = 16.599286    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 4:       F(u_grd) = 15.648714    ObjF = 33.372645        Number of edges: 475020                 ---> Movement is possible
+Worker 3:       F(u_grd) = 16.599286    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 7:       F(u_grd) = 16.089606    ObjF = 343.6326 Number of edges: 17550                  ---> Movement is possible
+Worker 9:       F(u_grd) = 16.599286    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 5:       F(u_grd) = 16.089606    ObjF = 343.6326 Number of edges: 17550                  ---> Movement is possible
+Worker 2:       F(u_grd) = 16.110909    ObjF = 345.06822        Number of edges: 98280                  ---> Movement is possible
+Worker 0:       F(u_grd) = 16.599286    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 14:      F(u_grd) = 16.599286    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 10:      F(u_grd) = 16.74958     ObjF = 255.73691        Number of edges: 475020                 ---> Movement is possible
+Worker 6:       F(u_grd) = 16.110909    ObjF = 345.06822        Number of edges: 98280                  ---> Movement is possible
+Worker 13:      F(u_grd) = 16.599286    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 7:       F(u_grd) = 16.110909    ObjF = 345.06822        Number of edges: 98280                  ---> Movement is possible
+Worker 11:      F(u_grd) = 16.110909    ObjF = 345.06822        Number of edges: 98280                  ---> Movement is possible
+Worker 15:      F(u_grd) = 15.648714    ObjF = 33.372645        Number of edges: 475020                 ---> Movement is possible
+Worker 5:       F(u_grd) = 16.110909    ObjF = 345.06822        Number of edges: 98280                  ---> Movement is possible
+Worker 7:       F(u_grd) = 16.599286    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 11:      F(u_grd) = 16.599286    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 4:       F(u_grd) = 16.74958     ObjF = 255.73691        Number of edges: 475020                 ---> Movement is possible
+Worker 2:       F(u_grd) = 16.599286    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 1:       F(u_grd) = 16.74958     ObjF = 255.73691        Number of edges: 475020                 ---> Movement is possible
+Worker 13:      F(u_grd) = 16.74958     ObjF = 255.73691        Number of edges: 475020                 ---> Movement is possible
+Worker 8:       F(u_grd) = 16.110909    ObjF = 345.06822        Number of edges: 98280                  ---> Movement is possible
+Worker 14:      F(u_grd) = 16.74958     ObjF = 255.73691        Number of edges: 475020                 ---> Movement is possible
+Worker 9:       F(u_grd) = 16.74958     ObjF = 255.73691        Number of edges: 475020                 ---> Movement is possible
+Worker 15:      F(u_grd) = 16.74958     ObjF = 255.73691        Number of edges: 475020                 ---> Movement is possible
+Worker 6:       F(u_grd) = 16.599286    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 11:      F(u_grd) = 16.74958     ObjF = 255.73691        Number of edges: 475020                 ---> Movement is possible
+Worker 5:       F(u_grd) = 16.74958     ObjF = 255.73691        Number of edges: 475020                 ---> Movement is possible
+Worker 7:       F(u_grd) = 16.74958     ObjF = 255.73691        Number of edges: 475020                 ---> Movement is possible
+Worker 6:       F(u_grd) = 16.870807    ObjF = 392.98929        Number of edges: 98280                  ---> Movement is possible
+Worker 2:       F(u_grd) = 16.74958     ObjF = 255.73691        Number of edges: 475020                 ---> Movement is possible
+Worker 0:       F(u_grd) = 16.74958     ObjF = 255.73691        Number of edges: 475020                 ---> Movement is possible
+Worker 8:       F(u_grd) = 16.74958     ObjF = 255.73691        Number of edges: 475020                 ---> Movement is possible
+Worker 3:       F(u_grd) = 16.74958     ObjF = 255.73691        Number of edges: 475020                 ---> Movement is possible
+Worker 12:      F(u_grd) = 16.74958     ObjF = 255.73691        Number of edges: 475020                 ---> Movement is possible
+Worker 15. Map progress: 100%   Elapsed time: 2
+Worker 15: Number of edges: 6
+Worker 9. Map progress: 100%    Elapsed time: 2
+Worker 9: Number of edges: 6
+Worker 8. Map progress: 100%    Elapsed time: 2
+Worker 8: Number of edges: 8
+Worker 3. Map progress: 100%    Elapsed time: 2
+Worker 3: Number of edges: 10
+Worker 14. Map progress: 100%   Elapsed time: 2
+Worker 14: Number of edges: 7
+Worker 4. Map progress: 100%    Elapsed time: 3
+Worker 4: Number of edges: 5
+Worker 13. Map progress: 100%   Elapsed time: 3
+Worker 13: Number of edges: 6
+Worker 5. Map progress: 100%    Elapsed time: 3
+Worker 5: Number of edges: 9
+Worker 10. Map progress: 100%   Elapsed time: 3
+Worker 10: Number of edges: 5
+Worker 7. Map progress: 100%    Elapsed time: 3
+Worker 7: Number of edges: 9
+Worker 11. Map progress: 100%   Elapsed time: 3
+Worker 11: Number of edges: 8
+Worker 0. Map progress: 100%    Elapsed time: 3
+Worker 0: Number of edges: 12
+Worker 1. Map progress: 100%    Elapsed time: 3
+Worker 1: Number of edges: 6
+Worker 2. Map progress: 100%    Elapsed time: 3
+Worker 2: Number of edges: 10
+Worker 6. Map progress: 100%    Elapsed time: 3
+Worker 6: Number of edges: 13
+Worker 12. Map progress: 100%   Elapsed time: 3
+Worker 12: Number of edges: 12
+ObjF = 392.98929        Number of edge combinations: 98280
 _________________________________________________ 2 _____________________________________________________
-F(u_nex) = 5.7455836
-Number of hyperplanes including u_nex: 29
-Number of edges:        475020
+Worker 13:      F(u_grd) = 394.01636    ObjF = 435.86745        Number of edges: 2600                   ---> Movement is possible
+Worker 8:       F(u_grd) = 394.01636    ObjF = 435.86745        Number of edges: 2600                   ---> Movement is possible
+Worker 1:       F(u_grd) = 394.01636    ObjF = 435.86745        Number of edges: 2600                   ---> Movement is possible
+Worker 4:       F(u_grd) = 394.03698    ObjF = 436.74954        Number of edges: 17550                  ---> Movement is possible
+Worker 0:       F(u_grd) = 394.10759    ObjF = 442.81697        Number of edges: 17550                  ---> Movement is possible
+Worker 6:       F(u_grd) = 395.07582    ObjF = 443.6303 Number of edges: 98280                  ---> Movement is possible
+Worker 2:       F(u_grd) = 394.02475    ObjF = 436.06155        Number of edges: 17550                  ---> Movement is possible
+Worker 13:      F(u_grd) = 394.03698    ObjF = 436.74954        Number of edges: 17550                  ---> Movement is possible
+Worker 3:       F(u_grd) = 393.96572    ObjF = 439.5554 Number of edges: 17550                  ---> Movement is possible
+Worker 10:      F(u_grd) = 394.02475    ObjF = 436.06155        Number of edges: 17550                  ---> Movement is possible
+Worker 11:      F(u_grd) = 394.02475    ObjF = 436.06155        Number of edges: 17550                  ---> Movement is possible
+Worker 8:       F(u_grd) = 394.03698    ObjF = 436.74954        Number of edges: 17550                  ---> Movement is possible
+Worker 7:       F(u_grd) = 394.0402     ObjF = 436.74224        Number of edges: 98280                  ---> Movement is possible
+Worker 9:       F(u_grd) = 394.10759    ObjF = 442.81697        Number of edges: 17550                  ---> Movement is possible
+Worker 8:       F(u_grd) = 394.10759    ObjF = 442.81697        Number of edges: 17550                  ---> Movement is possible
+Worker 5:       F(u_grd) = 394.12242    ObjF = 443.42822        Number of edges: 98280                  ---> Movement is possible
+Worker 2:       F(u_grd) = 394.10759    ObjF = 442.81697        Number of edges: 17550                  ---> Movement is possible
+Worker 12:      F(u_grd) = 394.10759    ObjF = 442.81697        Number of edges: 17550                  ---> Movement is possible
+Worker 13:      F(u_grd) = 394.10759    ObjF = 442.81697        Number of edges: 17550                  ---> Movement is possible
+Worker 3:       F(u_grd) = 395.07582    ObjF = 443.6303 Number of edges: 98280                  ---> Movement is possible
+Worker 10:      F(u_grd) = 394.03698    ObjF = 436.74954        Number of edges: 17550                  ---> Movement is possible
+Worker 14:      F(u_grd) = 393.96572    ObjF = 439.5554 Number of edges: 17550                  ---> Movement is possible
+Worker 7:       F(u_grd) = 394.12242    ObjF = 443.42822        Number of edges: 98280                  ---> Movement is possible
+Worker 9:       F(u_grd) = 394.12242    ObjF = 443.42822        Number of edges: 98280                  ---> Movement is possible
+Worker 1:       F(u_grd) = 394.0402     ObjF = 436.74224        Number of edges: 98280                  ---> Movement is possible
+Worker 10:      F(u_grd) = 395.07582    ObjF = 443.6303 Number of edges: 98280                  ---> Movement is possible
+Worker 6:       F(u_grd) = 395.20887    ObjF = 443.6303 Number of edges: 475020                 ---> Movement is possible
+Worker 1:       F(u_grd) = 395.07582    ObjF = 443.6303 Number of edges: 98280                  ---> Movement is possible
+Worker 8:       F(u_grd) = 394.12242    ObjF = 443.42822        Number of edges: 98280                  ---> Movement is possible
+Worker 15:      F(u_grd) = 394.03698    ObjF = 436.74954        Number of edges: 17550                  ---> Movement is possible
+Worker 11:      F(u_grd) = 394.0402     ObjF = 436.74224        Number of edges: 98280                  ---> Movement is possible
+Worker 4:       F(u_grd) = 394.0402     ObjF = 436.74224        Number of edges: 98280                  ---> Movement is possible
+Worker 8:       F(u_grd) = 395.07582    ObjF = 443.6303 Number of edges: 98280                  ---> Movement is possible
+Worker 7:       F(u_grd) = 395.07582    ObjF = 443.6303 Number of edges: 98280                  ---> Movement is possible
+Worker 2:       F(u_grd) = 395.20887    ObjF = 443.6303 Number of edges: 475020                 ---> Movement is possible
+Worker 13:      F(u_grd) = 394.12242    ObjF = 443.42822        Number of edges: 98280                  ---> Movement is possible
+Worker 11:      F(u_grd) = 394.12242    ObjF = 443.42822        Number of edges: 98280                  ---> Movement is possible
+Worker 4:       F(u_grd) = 395.20887    ObjF = 443.6303 Number of edges: 475020                 ---> Movement is possible
+Worker 12:      F(u_grd) = 394.12242    ObjF = 443.42822        Number of edges: 98280                  ---> Movement is possible
+Worker 14:      F(u_grd) = 394.02475    ObjF = 436.06155        Number of edges: 17550                  ---> Movement is possible
+Worker 0:       F(u_grd) = 394.12242    ObjF = 443.42822        Number of edges: 98280                  ---> Movement is possible
+Worker 12:      F(u_grd) = 395.07582    ObjF = 443.6303 Number of edges: 98280                  ---> Movement is possible
+Worker 1:       F(u_grd) = 395.20887    ObjF = 443.6303 Number of edges: 475020                 ---> Movement is possible
+Worker 9:       F(u_grd) = 395.07582    ObjF = 443.6303 Number of edges: 98280                  ---> Movement is possible
+Worker 5:       F(u_grd) = 395.07582    ObjF = 443.6303 Number of edges: 98280                  ---> Movement is possible
+Worker 14:      F(u_grd) = 394.03698    ObjF = 436.74954        Number of edges: 17550                  ---> Movement is possible
+Worker 7:       F(u_grd) = 395.20887    ObjF = 443.6303 Number of edges: 475020                 ---> Movement is possible
+Worker 8:       F(u_grd) = 395.20887    ObjF = 443.6303 Number of edges: 475020                 ---> Movement is possible
+Worker 0:       F(u_grd) = 395.20887    ObjF = 443.6303 Number of edges: 475020                 ---> Movement is possible
+Worker 14:      F(u_grd) = 395.07582    ObjF = 443.6303 Number of edges: 98280                  ---> Movement is possible
+Worker 13:      F(u_grd) = 395.07582    ObjF = 443.6303 Number of edges: 98280                  ---> Movement is possible
+Worker 15:      F(u_grd) = 395.20887    ObjF = 443.6303 Number of edges: 475020                 ---> Movement is possible
+Worker 9:       F(u_grd) = 395.20887    ObjF = 443.6303 Number of edges: 475020                 ---> Movement is possible
+Worker 12:      F(u_grd) = 395.20887    ObjF = 443.6303 Number of edges: 475020                 ---> Movement is possible
+Worker 11:      F(u_grd) = 395.20887    ObjF = 443.6303 Number of edges: 475020                 ---> Movement is possible
+Worker 5:       F(u_grd) = 395.20887    ObjF = 443.6303 Number of edges: 475020                 ---> Movement is possible
+Worker 10:      F(u_grd) = 395.20887    ObjF = 443.6303 Number of edges: 475020                 ---> Movement is possible
+Worker 3:       F(u_grd) = 395.20887    ObjF = 443.6303 Number of edges: 475020                 ---> Movement is possible
+Worker 13:      F(u_grd) = 395.20887    ObjF = 443.6303 Number of edges: 475020                 ---> Movement is possible
+Worker 14:      F(u_grd) = 395.20887    ObjF = 443.6303 Number of edges: 475020                 ---> Movement is possible
+Worker 11. Map progress: 100%   Elapsed time: 2
+Worker 11: Number of edges: 13
+Worker 14. Map progress: 100%   Elapsed time: 2
+Worker 14: Number of edges: 17
+Worker 8. Map progress: 100%    Elapsed time: 2
+Worker 8: Number of edges: 10
+Worker 2. Map progress: 100%    Elapsed time: 2
+Worker 2: Number of edges: 7
+Worker 4. Map progress: 100%    Elapsed time: 2
+Worker 4: Number of edges: 9
+Worker 5. Map progress: 100%    Elapsed time: 2
+Worker 5: Number of edges: 12
+Worker 1. Map progress: 100%    Elapsed time: 2
+Worker 1: Number of edges: 11
+Worker 0. Map progress: 100%    Elapsed time: 2
+Worker 0: Number of edges: 11
+Worker 15. Map progress: 100%   Elapsed time: 2
+Worker 15: Number of edges: 12
+Worker 9. Map progress: 100%    Elapsed time: 2
+Worker 9: Number of edges: 14
+Worker 6. Map progress: 100%    Elapsed time: 2
+Worker 6: Number of edges: 8
+Worker 7. Map progress: 100%    Elapsed time: 2
+Worker 7: Number of edges: 11
+Worker 12. Map progress: 100%   Elapsed time: 2
+Worker 12: Number of edges: 15
+Worker 3. Map progress: 100%    Elapsed time: 2
+Worker 3: Number of edges: 15
+Worker 13. Map progress: 100%   Elapsed time: 2
+Worker 13: Number of edges: 20
+Worker 10. Map progress: 100%   Elapsed time: 2
+Worker 10: Number of edges: 16
+ObjF = 443.6303 Number of edge combinations: 475020
 _________________________________________________ 3 _____________________________________________________
-F(u_nex) = 65.907534
-Number of hyperplanes including u_nex: 28
-Number of edges:        98280
-_________________________________________________ 4 _____________________________________________________
-F(u_nex) = 194.54556
-Number of hyperplanes including u_nex: 29
-Number of edges:        475020
-|PP_MAX_OBJ_VALUE-F(u_nex)|/|PP_MAX_OBJ_VALUE| = 1.8370788e-13 < PP_EPS_RELATIVE_ERROR = 0.001
+Worker 8:       F(u_grd) = 443.69497    ObjF = 458.57508        Number of edges: 2035800                        ---> Movement is possible
+Worker 10:      F(u_grd) = 443.69497    ObjF = 458.57508        Number of edges: 2035800                        ---> Movement is possible
+Worker 3:       F(u_grd) = 443.69497    ObjF = 458.57508        Number of edges: 2035800                        ---> Movement is possible
+Worker 6:       F(u_grd) = 443.72575    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 12:      F(u_grd) = 443.69497    ObjF = 458.57508        Number of edges: 2035800                        ---> Movement is possible
+Worker 4:       F(u_grd) = 443.69497    ObjF = 458.57508        Number of edges: 2035800                        ---> Movement is possible
+Worker 7:       F(u_grd) = 443.69497    ObjF = 458.57508        Number of edges: 2035800                        ---> Movement is possible
+Worker 0:       F(u_grd) = 443.72575    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 9:       F(u_grd) = 443.69497    ObjF = 458.57508        Number of edges: 2035800                        ---> Movement is possible
+Worker 13:      F(u_grd) = 443.69497    ObjF = 458.57508        Number of edges: 2035800                        ---> Movement is possible
+Worker 11:      F(u_grd) = 443.69497    ObjF = 458.57508        Number of edges: 2035800                        ---> Movement is possible
+Worker 15:      F(u_grd) = 443.69497    ObjF = 458.57508        Number of edges: 2035800                        ---> Movement is possible
+Worker 4:       F(u_grd) = 443.72575    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 1:       F(u_grd) = 443.69497    ObjF = 458.57508        Number of edges: 2035800                        ---> Movement is possible
+Worker 13:      F(u_grd) = 443.72575    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 2:       F(u_grd) = 443.69497    ObjF = 458.57508        Number of edges: 2035800                        ---> Movement is possible
+Worker 11:      F(u_grd) = 443.72575    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 8:       F(u_grd) = 443.72575    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 5:       F(u_grd) = 443.69497    ObjF = 458.57508        Number of edges: 2035800                        ---> Movement is possible
+Worker 7:       F(u_grd) = 443.72575    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 5:       F(u_grd) = 443.72575    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 14:      F(u_grd) = 443.72575    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 2:       F(u_grd) = 443.72575    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 9:       F(u_grd) = 443.72575    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 3:       F(u_grd) = 443.72575    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 15:      F(u_grd) = 443.72575    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 10:      F(u_grd) = 443.72575    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 12:      F(u_grd) = 443.72575    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Worker 1:       F(u_grd) = 443.72575    ObjF = 464.75314        Number of edges: 2035800                        ---> Movement is possible
+Map progress: 54%       Time = 60
+Map progress: 86%       Time = 120
+
+Map progress: 99%       Time = 180
+Worker 1. Map progress: 100%    Elapsed time: 181
+Worker 1: Number of edges: 29
+Worker 9. Map progress: 100%    Elapsed time: 182
+Worker 9: Number of edges: 17
+Worker 11. Map progress: 100%   Elapsed time: 182
+Worker 11: Number of edges: 16
+Worker 2. Map progress: 100%    Elapsed time: 182
+Worker 2: Number of edges: 19
+Worker 8. Map progress: 100%    Elapsed time: 183
+Worker 8: Number of edges: 17
+Worker 6. Map progress: 100%    Elapsed time: 184
+Worker 6: Number of edges: 11
+Worker 0. Map progress: 100%    Elapsed time: 184
+Worker 0: Number of edges: 15
+Worker 4. Map progress: 100%    Elapsed time: 184
+Worker 4: Number of edges: 15
+Worker 10. Map progress: 100%   Elapsed time: 184
+Worker 10: Number of edges: 19
+Worker 3. Map progress: 100%    Elapsed time: 184
+Worker 3: Number of edges: 19
+Worker 5. Map progress: 100%    Elapsed time: 184
+Worker 5: Number of edges: 17
+Worker 14. Map progress: 100%   Elapsed time: 184
+Worker 14: Number of edges: 17
+Worker 13. Map progress: 100%   Elapsed time: 184
+Worker 13: Number of edges: 16
+Worker 15. Map progress: 100%   Elapsed time: 184
+Worker 15: Number of edges: 24
+Worker 7. Map progress: 100%    Elapsed time: 184
+Worker 7: Number of edges: 17
+Worker 12. Map progress: 100%   Elapsed time: 184
+Worker 12: Number of edges: 20
+ObjF = 464.75314        Number of edge combinations: 2035800
+|PP_MAX_OBJ_VALUE-F(u_nex)|/|PP_MAX_OBJ_VALUE| = 1.4897217e-13 < PP_EPS_RELATIVE_ERROR = 1e-08
 ================================================
-// Elapsed time: 873.16441
-// Number of iterations: 5
-// Computed objective value: 464.753142857228226603183
+// Elapsed time: 189.10572
+// Number of iterations: 3
+// Computed objective value: 464.753142857212083072227
 // Maximal objective value:  464.753142857142847788054
-// Relative error = 1.84e-13
+// Relative error = 1.49e-13
 ================================================
-Distance to polytope: 4.1072275e-11
