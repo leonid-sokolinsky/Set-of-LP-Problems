@@ -1,0 +1,83 @@
+Problem name: adlittle
+Input format: MPS
+m = 153 n = 97 (after conversion into standard form)
+Number of equations: 15
+Subspace dimension: 82
+Number of Workers: 12
+Optimization: Maximum
+Strategy: The best vertex
+Prefer vertex with lowest degree: Yes
+Pseudoprojection method: Max
+PP_EPS_ZERO                     1e-11
+PP_EPS_PROJECTION               1e-10
+PP_EPS_ON_HYPERPLANE            1e-09
+PP_OBJECTIVE_VECTOR_LENGTH      1000000
+_________________________________________________________________________________________________________
+ObjF = -22759502        Number of edge combinations: 82
+_________________________________________________ 1 _____________________________________________________
+Worker 7:        ObjF = -22712721       Number of edge combinations: 82                 ---> Movement is possible
+Worker 3:        ObjF = -22710388       Number of edge combinations: 82                 ---> Movement is possible
+Worker 7:        ObjF = -22707500       Number of edge combinations: 82                 ---> Movement is possible
+Worker 11:       ObjF = -22677697       Number of edge combinations: 82                 ---> Movement is possible
+Worker 8:        ObjF = -22537396       Number of edge combinations: 82                 ---> Movement is possible
+Worker 3:        ObjF = -22422981       Number of edge combinations: 82                 ---> Movement is possible
+Worker 6:        ObjF = -22268444       Number of edge combinations: 82                 ---> Movement is possible
+Worker 0:        ObjF = -22604601       Number of edge combinations: 82                 ---> Movement is possible
+Map progress: 15%       Time = 309
+Worker 2:        ObjF = -22676985       Number of edge combinations: 82                 ---> Movement is possible
+Map progress: 29%       Time = 422
+Worker 1:        ObjF = -22583312       Number of edge combinations: 82                 ---> Movement is possible
+Worker 5:        ObjF = -22712509       Number of edge combinations: 82                 ---> Movement is possible
+Map progress: 44%       Time = 508
+Worker 7:        ObjF = -21989383       Number of edge combinations: 82                 ---> Movement is possible
+Worker 6:        ObjF = -18951465       Number of edge combinations: 82                 ---> Movement is possible
+Worker 9:        ObjF = -22706851       Number of edge combinations: 82                 ---> Movement is possible
+Worker 10:       ObjF = -22675353       Number of edge combinations: 82                 ---> Movement is possible
+Worker 8:        ObjF = -22311294       Number of edge combinations: 82                 ---> Movement is possible
+Worker 1:        ObjF = -22442937       Number of edge combinations: 82                 ---> Movement is possible
+Worker 5:        ObjF = -22515824       Number of edge combinations: 82                 ---> Movement is possible
+Worker 0:        ObjF = -17016822       Number of edge combinations: 82                 ---> Movement is possible
+Map progress: 59%       Time = 857
+Worker 4:        ObjF = -22653516       Number of edge combinations: 82                 ---> Movement is possible
+Worker 9:        ObjF = -22683022       Number of edge combinations: 82                 ---> Movement is possible
+Worker 3:        ObjF = -225494.96      Number of edge combinations: 82                 ---> Movement is possible
+Worker 10:       ObjF = -22586346       Number of edge combinations: 82                 ---> Movement is possible
+Worker 5:        ObjF = -22479256       Number of edge combinations: 82                 ---> Movement is possible
+Map progress: 73%       Time = 1199
+Worker 3. Map progress: 100%    Elapsed time: 1268
+Worker 3: Number of different edges: 7
+Worker 4:        ObjF = -21264819       Number of edge combinations: 82                 ---> Movement is possible
+Worker 9:        ObjF = -22666168       Number of edge combinations: 82                 ---> Movement is possible
+Worker 11. Map progress: 100%   Elapsed time: 1372
+Worker 11: Number of different edges: 6
+Worker 10. Map progress: 100%   Elapsed time: 1416
+Worker 10: Number of different edges: 6
+Worker 9. Map progress: 100%    Elapsed time: 1420
+Worker 9: Number of different edges: 7
+Worker 7. Map progress: 100%    Elapsed time: 1424
+Worker 7: Number of different edges: 7
+Worker 1. Map progress: 100%    Elapsed time: 1431
+Worker 1: Number of different edges: 7
+Map progress: 88%       Time = 1484
+Worker 0. Map progress: 100%    Elapsed time: 1562
+Worker 0: Number of different edges: 7
+Worker 8. Map progress: 100%    Elapsed time: 1576
+Worker 8: Number of different edges: 7
+Worker 2. Map progress: 100%    Elapsed time: 1609
+Worker 2: Number of different edges: 7
+Worker 5:        ObjF = -22398017       Number of edge combinations: 82                 ---> Movement is possible
+Worker 5. Map progress: 100%    Elapsed time: 1707
+Worker 5: Number of different edges: 7
+Worker 6. Map progress: 100%    Elapsed time: 1813
+Worker 6: Number of different edges: 7
+Worker 4. Map progress: 100%    Elapsed time: 1828
+Worker 4: Number of different edges: 7
+ObjF = -225494.96       Number of edge combinations: 82
+|PP_MAX_OBJ_VALUE-F(u_nex)|/|PP_MAX_OBJ_VALUE| = 4.142129e-12 < PP_EPS_RELATIVE_ERROR = 1e-08
+================================================
+// Elapsed time: 1827.593
+// Number of iterations: 1
+// Computed objective value: -225494.963161446357844397
+// Maximal objective value:  -225494.963162380387075245
+// Relative error = 4.14e-12
+================================================
