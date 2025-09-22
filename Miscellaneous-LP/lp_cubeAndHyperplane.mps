@@ -1,4 +1,4 @@
-NAME          cubeInHyperplane
+NAME          cubeAndHyperplane
 *   Maximum: 90000 
 *   Minimum: -31272.7417820322843908798
 
@@ -15,7 +15,7 @@ COLUMNS
     x1        c         -50.
     x2        2         1.             3         1.
     x2        c         -100.
-    x3        3         1.            c         -150.
+    x3        3         1.             c         -150.
 RHS
     b         0         200.           1         200.
     b         2         200.           3         600.
