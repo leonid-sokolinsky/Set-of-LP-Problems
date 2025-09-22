@@ -1,4 +1,7 @@
 NAME          hamck26s (cycles with steepest edge)
+*   https://doi.org/10.1007/s10107-003-0488-1
+*   Maximum: 1.25 
+*   Minimum: 0
 ROWS
  L  R1
  L  R2

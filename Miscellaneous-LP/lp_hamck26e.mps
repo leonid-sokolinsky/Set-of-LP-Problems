@@ -1,4 +1,7 @@
 NAME          hamck26e (cycles with Dantzig and EXPAND)
+*   https://doi.org/10.1007/s10107-003-0488-1
+*   Maximum: 3.25 
+*   Minimum: 11.5320512820512846019483
 ROWS
  L  R1
  L  R2
